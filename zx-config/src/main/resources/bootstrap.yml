@@ -1,0 +1,12 @@
+
+
+spring:
+  application:
+    name: zx-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hellxz/SpringCloudlearn
+          search-paths: config-repo
+

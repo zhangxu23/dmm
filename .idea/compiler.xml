@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="us-consumer" />
+        <module name="eureka-server" />
+        <module name="common" />
+        <module name="user-provider" />
+        <module name="us-provider" />
+        <module name="use-provider" />
+        <module name="zx-config" />
+        <module name="zx-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.5" />
+      <module name="demo" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="us-consume" target="1.8" />
+      <module name="us-consumer" target="1.8" />
+      <module name="us-provider" target="1.8" />
+      <module name="use-provider" target="1.8" />
+      <module name="user-orovider" target="1.8" />
+      <module name="user-provider" target="1.8" />
+      <module name="zx-config" target="1.8" />
+      <module name="zx-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="us-consume" options="-parameters" />
+      <module name="us-consumer" options="-parameters" />
+      <module name="us-provider" options="-parameters" />
+      <module name="use-provider" options="-parameters" />
+      <module name="user-orovider" options="-parameters" />
+      <module name="user-provider" options="-parameters" />
+      <module name="zx-config" options="-parameters" />
+      <module name="zx-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

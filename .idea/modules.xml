@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm.iml" filepath="$PROJECT_DIR$/dmm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/us-consumer/us-consumer.iml" filepath="$PROJECT_DIR$/us-consumer/us-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/us-provider/us-provider.iml" filepath="$PROJECT_DIR$/us-provider/us-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/use-provider/use-provider.iml" filepath="$PROJECT_DIR$/use-provider/use-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-provider/user-provider.iml" filepath="$PROJECT_DIR$/user-provider/user-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zx-config/zx-config.iml" filepath="$PROJECT_DIR$/zx-config/zx-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zx-zuul/zx-zuul.iml" filepath="$PROJECT_DIR$/zx-zuul/zx-zuul.iml" />
+    </modules>
+  </component>
+</project>

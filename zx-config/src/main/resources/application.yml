@@ -1,0 +1,9 @@
+
+
+
+server:
+  port: 8060
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:root@localhost:7777/eureka/
